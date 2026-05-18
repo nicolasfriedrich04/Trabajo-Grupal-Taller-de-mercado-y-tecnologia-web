@@ -1,0 +1,116 @@
+/* --- ESTILOS DE IMÁGENES --- */
+img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- TABLAS --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: var(--color-texto-claro, #ffffff);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: var(--color-acento, #1a2ba4);
+    color: var(--color-texto-claro, #ffffff);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fbfd;
+}
+
+tr:hover {
+    background-color: #f0f7fc;
+}
+
+/* --- FORMULARIOS --- */
+form {
+    background-color: var(--color-texto-claro, #ffffff);
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+    margin: 2rem auto;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: var(--color-texto, #1a1a1a);
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: inherit;
+    background-color: #fafafa;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+    border-color: var(--color-primario, #53d4ff);
+    background-color: #ffffff;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button[type="submit"],
+input[type="submit"] {
+    background-color: var(--color-primario, #53d4ff);
+    color: var(--color-texto, #1a1a1a);
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button[type="submit"]:hover,
+input[type="submit"]:hover {
+    background-color: var(--color-acento, #1a2ba4);
+    color: var(--color-texto-claro, #ffffff);
+}
+
+button[type="submit"]:active,
+input[type="submit"]:active {
+    transform: scale(0.98);
+}

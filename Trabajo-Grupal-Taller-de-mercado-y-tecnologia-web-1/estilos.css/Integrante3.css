@@ -1,0 +1,82 @@
+/* --- Headings --- */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+
+h1{
+   font-size: 2.2rem;
+   color: var(--color-primario, #53d4ff);
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: var(--color-primario, #53d4ff);
+    border-bottom: 2px solid var(--color-primario, #53d4ff);
+    padding: 0.5rem;
+}
+
+h3 {
+    font-size: 1.4rem;
+    color: var(--color-acento, #1a2ba4);
+    margin-top: 0.5rem;
+}
+
+/* --- section --- */
+section {
+    background-color: var(--color-texto-claro, #ffffff);
+    padding: 2.5rem 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+/* --- article --- */
+article {
+    background-color: #f4fafd;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-left: 5px solid var(--color-primario, #53d4ff);
+    border-radius: 4px;
+}
+
+/* --- Párrafos --- */
+p, dt, dd, li {
+    color: var(--color-texto, #1a1a1a); 
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;           
+}
+
+dl {
+    padding: 0.5rem 0;
+}
+
+dt {
+    font-weight: bold;
+    color: var(--color-acento, #1a2ba4); 
+    margin-top: 1rem;
+}
+
+dd {
+    margin-left: 1.5rem;        
+    margin-bottom: 0.8rem;
+    font-style: italic;         
+}
+
+ul {
+    padding-left: 1.5rem;       
+    margin-bottom: 1.2rem;
+}
+
+li {
+    margin-bottom: 0.5rem;      
+}
+
