@@ -4,7 +4,7 @@
     --color-acento: #1a2ba4;
     --color-texto: #1a1a1a;
     --color-texto-claro: #ffffff;
-    --fuente-princpal: "inter", sans-serif;
+    --fuente-principal: "inter", sans-serif;
 
 }
 *{ 
@@ -16,7 +16,7 @@
 body{
     font-family: var(--fuente-principal);
     font-size: 16px;
-    color: var(color-texto);
+    color: var(--color-texto);
     background-color: var(--color-fondo);
     max-width: 1100px;
     margin: 0 auto;
