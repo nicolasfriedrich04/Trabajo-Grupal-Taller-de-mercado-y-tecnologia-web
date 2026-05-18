@@ -37,7 +37,6 @@ article {
     border-left: 5px solid var(--color-primario, #53d4ff);
     border-radius: 4px;
 }
-<<<<<<< HEAD
 
 /* --- Párrafos --- */
 p, dt, dd, li {
@@ -78,5 +77,4 @@ ul {
 li {
     margin-bottom: 0.5rem;      
 }
-=======
->>>>>>> 1652021de872e1565dc05ccf69310d69e63acc4b
+
