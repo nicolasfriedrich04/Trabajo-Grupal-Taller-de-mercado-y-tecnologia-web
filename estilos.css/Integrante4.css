@@ -1,0 +1,9 @@
+/* --- ESTILOS DE IMÁGENES --- */
+img {
+    max-width: 100%;            /* Hace que las imágenes sean responsivas y no se rompan */
+    height: auto;
+    display: block;
+    margin: 1rem auto;          /* Centra las imágenes con un margen arriba y abajo */
+    border-radius: 6px;         /* Bordes redondeados sutiles para combinar con el sitio */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+}
