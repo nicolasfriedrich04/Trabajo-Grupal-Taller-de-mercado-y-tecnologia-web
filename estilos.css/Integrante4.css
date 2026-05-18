@@ -1,9 +1,42 @@
 /* --- ESTILOS DE IMÁGENES --- */
 img {
-    max-width: 100%;            /* Hace que las imágenes sean responsivas y no se rompan */
+    max-width: 100%; 
     height: auto;
     display: block;
-    margin: 1rem auto;          /* Centra las imágenes con un margen arriba y abajo */
-    border-radius: 6px;         /* Bordes redondeados sutiles para combinar con el sitio */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar profundidad */
+    margin: 1rem auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* --- TABLAS --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    background-color: var(--color-texto-claro, #ffffff);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background-color: var(--color-acento, #1a2ba4);
+    color: var(--color-texto-claro, #ffffff);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+tr:nth-child(even) {
+    background-color: #f8fbfd;
+}
+
+tr:hover {
+    background-color: #f0f7fc;
 }
