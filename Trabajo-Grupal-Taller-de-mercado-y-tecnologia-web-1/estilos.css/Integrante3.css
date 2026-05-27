@@ -6,25 +6,25 @@ h1, h2, h3, h4, h5, h6 {
 
 h1{
    font-size: 2.2rem;
-   color: var(--color-primario, #53d4ff);
+   color: var(--color-primario)
 }
 
 h2 {
     font-size: 1.8rem;
-    color: var(--color-primario, #53d4ff);
-    border-bottom: 2px solid var(--color-primario, #53d4ff);
+    color: var(--color-primario);
+    border-bottom: 2px solid var(--color-primario);
     padding: 0.5rem;
 }
 
 h3 {
     font-size: 1.4rem;
-    color: var(--color-acento, #1a2ba4);
+    color: var(--color-acento);
     margin-top: 0.5rem;
 }
 
 /* --- section --- */
 section {
-    background-color: var(--color-texto-claro, #ffffff);
+    background-color: var(--color-texto-claro);
     padding: 2.5rem 2rem;
     margin-bottom: 2rem;
     border-radius: 8px; 
@@ -33,16 +33,16 @@ section {
 
 /* --- article --- */
 article {
-    background-color: #f4fafd;
+    background-color: var(--color-texto-claro);
     padding: 1.5rem;
     margin-bottom: 1.5rem;
-    border-left: 5px solid var(--color-primario, #53d4ff);
+    border-left: 5px solid var(--color-primario);
     border-radius: 4px;
 }
 
 /* --- Párrafos --- */
 p, dt, dd, li {
-    color: var(--color-texto, #1a1a1a); 
+    color: var(--color-texto); 
     font-size: 1rem;
     line-height: 1.6;
 }
@@ -61,7 +61,7 @@ dl {
 
 dt {
     font-weight: bold;
-    color: var(--color-acento, #1a2ba4); 
+    color: var(--color-acento); 
     margin-top: 1rem;
 }
 
