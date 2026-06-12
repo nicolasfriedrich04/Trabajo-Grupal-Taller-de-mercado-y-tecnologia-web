@@ -80,3 +80,14 @@ li {
     margin-bottom: 0.5rem;      
 }
 
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 1 280px;
+}
