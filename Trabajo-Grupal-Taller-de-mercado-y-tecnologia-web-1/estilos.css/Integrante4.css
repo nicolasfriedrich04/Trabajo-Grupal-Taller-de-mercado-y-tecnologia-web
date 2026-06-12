@@ -1,3 +1,13 @@
+/* --- VARIABLES GLOBALES --- */
+:root {
+    --color-primario: #53d4ff;
+    --color-fondo: #bceeff;
+    --color-acento: #1a2ba4;
+    --color-texto: #1a1a1a;
+    --color-texto-claro: #ffffff;
+    --fuente-principal: "inter", sans-serif;
+}
+
 /* --- ESTILOS DE IMÁGENES --- */
 img {
     max-width: 100%; 
@@ -72,7 +82,7 @@ select {
     border-radius: 4px;
     font-size: 1rem;
     font-family: inherit;
-    background-color: (#fafafa);
+    background-color: #fafafa;
     transition: border-color 0.3s ease;
 }
 
@@ -82,7 +92,7 @@ textarea:focus,
 select:focus {
     outline: none;
     border-color: var(--color-primario);
-    background-color:var(--color-texto-claro);
+    background-color: var(--color-texto-claro);
 }
 
 textarea {
@@ -115,34 +125,16 @@ input[type="submit"]:active {
     transform: scale(0.98);
 }
 
-:root{
-  --color-primario: #53d4ff;
-    --color-fondo: #bceeff;
-    --color-acento: #1a2ba4;
-    --color-texto: #1a1a1a;
-    --color-texto-claro: #ffffff;
-    --fuente-principal: "inter", sans-serif;
+/* --- TU TRABAJO: HEADER FIJO (Sin parches de fuerza bruta) --- */
+body {
+    padding-top: 90px;
 }
-
-
-
-
-#inicio, #nosotros-historia {
-    display: block !important; 
-} 
 
 header {
     position: fixed;
     top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
     width: 100%;
-    max-width: 1100px;
-}
-
-input[type="text"], 
-input[type="email"], 
-textarea, 
-select {
-    background-color: #fafafa !important;
+    z-index: 3000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
