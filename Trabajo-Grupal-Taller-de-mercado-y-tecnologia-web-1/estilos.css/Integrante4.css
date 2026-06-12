@@ -126,30 +126,32 @@ input[type="submit"]:active {
 
 
 
-header {
-    position: sticky;
-    top: 0;
-    z-index: 2000;
-    background-color: #53d4ff;
-    width: 100%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    padding: 1rem 0;
+
+
+body {
+    padding-top: 90px !important;
 }
 
 
-main, 
-.contenedor-principal, 
-body > div:not(header) {
-    margin-top: 5rem !important;
-    position: relative;
-    z-index: 1;
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3000;
+    background-color: #53d4ff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+main, section, .contenedor-principal {
+    margin-top: 0 !important; 
 }
 
 
 .hero-banner {
     position: relative;
     width: 100%;
-    margin-top: 1rem;
     margin-bottom: 2rem;
 }
 
