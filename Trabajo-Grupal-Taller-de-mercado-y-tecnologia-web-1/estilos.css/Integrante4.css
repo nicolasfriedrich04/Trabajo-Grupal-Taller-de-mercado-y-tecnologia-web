@@ -123,3 +123,25 @@ input[type="submit"]:active {
     --color-texto-claro: #ffffff;
     --fuente-principal: "inter", sans-serif;
 }
+
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+.hero-banner {
+    position: relative;
+    width: 100%;
+}
+
+.hero-texto {
+    position: absolute;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    background-color: rgba(26, 43, 164, 0.8);
+    padding: 1rem;
+    border-radius: 4px;
+}
