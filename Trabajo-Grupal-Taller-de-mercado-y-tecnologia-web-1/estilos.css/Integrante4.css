@@ -1,4 +1,4 @@
-
+/* --- Imagenes --- */
 img {
     max-width: 100%; 
     height: auto;
@@ -8,6 +8,7 @@ img {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* --- Tablas --- */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -35,6 +36,7 @@ th {
 tr:nth-child(even) { background-color: #f8fbfd; }
 tr:hover { background-color: #f0f7fc; }
 
+/* --- Formularios --- */
 form {
     background-color: var(--color-texto-claro);
     padding: 2rem;
