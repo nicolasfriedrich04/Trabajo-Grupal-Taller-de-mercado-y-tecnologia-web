@@ -1,37 +1,28 @@
+/* Header */
 header {
     background-color: var(--color-primario);
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    padding: 1.5rem;
+    text-align: center;
 }
 
-nav {
-    display: flex;
-    gap: 20px;
-}
-
+/* Navegación */
 nav a {
     color: var(--color-texto-claro);
     text-decoration: none;
+    margin: 0 15px;
     font-weight: 500;
-    transition: opacity 0.3s ease;
 }
 
-
 nav a:hover {
-    opacity: 0.7;
+    color: var(--color-acento);
     text-decoration: underline;
 }
 
-
+/* Footer */
 footer {
     background-color: var(--color-acento);
     color: var(--color-texto-claro);
-    padding: 2rem;
-    margin-top: auto;
+    padding: 1.5rem;
     text-align: center;
+    margin-top: auto;
 }
