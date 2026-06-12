@@ -1,32 +1,37 @@
-/* Header estándar (no fixed para que no tape el contenido) */
 header {
     background-color: var(--color-primario);
     padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
-header h1 {
-    font-size: 1.5rem;
-    color: white;
-    margin: 0;
-}
-
-/* Menú limpio y blanco */
 nav {
     display: flex;
     gap: 20px;
 }
 
 nav a {
-    color: white;
+    color: var(--color-texto-claro);
     text-decoration: none;
     font-weight: 500;
+    transition: opacity 0.3s ease;
 }
 
-/* Sección principal para que el contenido baje un poco */
-main {
-    margin-top: 2rem;
+
+nav a:hover {
+    opacity: 0.7;
+    text-decoration: underline;
+}
+
+
+footer {
+    background-color: var(--color-acento);
+    color: var(--color-texto-claro);
+    padding: 2rem;
+    margin-top: auto;
+    text-align: center;
 }

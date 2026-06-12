@@ -1,3 +1,4 @@
+/*-- Variables --*/
 :root {
     --color-primario: #53d4ff;
     --color-fondo: #bceeff;
@@ -7,12 +8,14 @@
     --fuente-principal: "Inter", sans-serif;
 }
 
+/*-- Reset --*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*-- Body --*/
 body {
     font-family: var(--fuente-principal);
     line-height: 1.6;
