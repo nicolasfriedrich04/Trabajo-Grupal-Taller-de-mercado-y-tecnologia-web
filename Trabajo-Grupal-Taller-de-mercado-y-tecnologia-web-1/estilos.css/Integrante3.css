@@ -89,3 +89,10 @@ li {
 article {
     flex: 1 1 280px;
 }
+
+
+#programas h2, #programas h1 {
+    width: 100%; 
+    margin-bottom: 2rem;
+    text-align: left;
+}
