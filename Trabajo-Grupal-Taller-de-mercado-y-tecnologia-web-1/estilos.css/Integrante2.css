@@ -1,34 +1,46 @@
-/*-- Header --*/
-header {
-    background-color: var(--color-primario);
-    padding: 2rem;
-    text-align: center;
-    border-bottom: 3px solid var(--color-acento);
-}
-
-/*-- Navegación --*/
-nav {
-    margin-top: 1rem;
-}
-
-nav a {
-    color: var(--color-texto);
-    text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+header{
+ background-color: var(--color-primario);
+ color: var(--color-texto-claro);
+ padding: 1rem 1.5rem;
 }
 
 
-nav a:hover {
-    color: var(--color-acento);
-    text-decoration: underline;
+header h1{
+ color: var(--color-texto-claro);
 }
 
-/*-- Footer --*/
-footer {
-    background-color: var(--color-acento);
-    color: var(--color-texto-claro);
-    padding: 1.5rem;
-    text-align: center;
-    margin-top: 2rem;
+
+header h2{
+ color: var(--color-acento);
+}
+
+
+nav{
+ margin-top: 0.5rem;
+}
+
+nav a{
+ color: var(--color-texto);
+ text-decoration: none;
+ font-weight: 600;
+ margin-right: 1rem;
+}
+
+
+nav a:hover{
+ color: var(--color-acento);
+ text-decoration: underline;
+}
+
+
+main{
+ margin-bottom: 2rem;
+}
+
+
+footer{
+ background-color: var(--color-primario);
+ color: var(--color-texto-claro);
+ padding: 1.5rem;
+ text-align: center;
 }
