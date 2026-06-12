@@ -132,17 +132,29 @@ header {
     position: sticky;
     top: 0;
     z-index: 1000;
-    background-color: var(--color-fondo);
+    background-color: var(--color-primario); /* Celeste fuerte oficial */
+    padding: 1rem 2rem;
+    height: 70px; /* Le damos altura fija para que NADA se meta abajo a tapar texto */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Forzamos a que los enlaces del menú se lean en negro sobre el celeste fuerte */
+header a, nav a {
+    color: var(--color-texto) !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* 2. Colchón de seguridad para que las páginas (Inicio, Programas, etc.) arranquen ABAJO del header */
+main, section, .contenedor-principal, body > div {
+    margin-top: 2rem !important;
     padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 
-
-main, section, .contenedor-principal {
-    margin-top: 1.5rem;
-}
-
-
+/* 3. Estilos del Banner Destacado (Aislados) */
 .hero-banner {
     position: relative;
     width: 100%;
@@ -161,7 +173,7 @@ img.hero-img {
     position: absolute;
     bottom: 1.25rem;
     left: 1.25rem;
-    background-color: rgba(26, 43, 164, 0.85);
+    background-color: rgba(26, 43, 164, 0.9); /* Azul acento */
     color: var(--color-texto-claro);
     padding: 1rem;
     border-radius: 4px;
