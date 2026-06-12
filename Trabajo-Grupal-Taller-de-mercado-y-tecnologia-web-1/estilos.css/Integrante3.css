@@ -81,13 +81,12 @@ li {
 }
 
 
-
-article {
+section {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.5rem;
 }
 
-.card {
+article {
     flex: 1 1 280px;
 }
