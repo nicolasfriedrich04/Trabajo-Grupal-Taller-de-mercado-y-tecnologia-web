@@ -127,49 +127,6 @@ input[type="submit"]:active {
 
 
 
-
-body {
-    padding-top: 90px !important;
-}
-
-
-header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 3000;
-    background-color: #53d4ff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-
-main, section, .contenedor-principal {
-    margin-top: 0 !important; 
-}
-
-
-.hero-banner {
-    position: relative;
-    width: 100%;
-    margin-bottom: 2rem;
-}
-
-img.hero-img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 0;
-    box-shadow: none;
-    margin: 0;
-}
-
-.hero-texto {
-    position: absolute;
-    bottom: 1.25rem;
-    left: 1.25rem;
-    background-color: rgba(26, 43, 164, 0.9);
-    color: #ffffff;
-    padding: 1rem;
-    border-radius: 4px;
+#inicio, #nosotros-historia {
+    display: block !important; 
 }
