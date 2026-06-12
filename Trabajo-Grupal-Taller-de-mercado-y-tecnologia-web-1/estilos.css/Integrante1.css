@@ -28,11 +28,11 @@ h1{
 }
 
 h2{
- font-size: 1,5rem; color: var(--color-primario);
+ font-size: 1.5rem; color: var(--color-primario);
 }
 
 h3{
- font-size: 1,25rem; color: var(--color-acento);
+ font-size: 1.25rem; color: var(--color-acento);
 }
 
 p{
