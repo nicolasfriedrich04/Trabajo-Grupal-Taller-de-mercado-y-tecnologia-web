@@ -127,12 +127,19 @@ input[type="submit"]:active {
 
 
 
+
 header {
     position: sticky;
     top: 0;
     z-index: 1000;
     background-color: var(--color-fondo);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+
+main, section, .contenedor-principal {
+    margin-top: 1.5rem;
 }
 
 
@@ -141,7 +148,6 @@ header {
     width: 100%;
     margin-bottom: 2rem;
 }
-
 
 img.hero-img {
     width: 100%;
