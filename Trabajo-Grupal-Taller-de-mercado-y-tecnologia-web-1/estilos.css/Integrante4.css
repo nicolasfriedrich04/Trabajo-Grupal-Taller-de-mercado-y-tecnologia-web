@@ -125,23 +125,38 @@ input[type="submit"]:active {
 }
 
 
+
+
 header {
     position: sticky;
     top: 0;
     z-index: 1000;
+    background-color: var(--color-texto-claro); 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 
 .hero-banner {
     position: relative;
     width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.hero-banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
 }
 
 .hero-texto {
     position: absolute;
     bottom: 1.25rem;
     left: 1.25rem;
-    background-color: rgba(26, 43, 164, 0.8);
+    background-color: rgba(26, 43, 164, 0.9);
+    color: var(--color-texto-claro);
     padding: 1rem;
     border-radius: 4px;
 }
