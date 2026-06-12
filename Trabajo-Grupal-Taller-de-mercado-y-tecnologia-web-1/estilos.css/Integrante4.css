@@ -125,7 +125,7 @@ input[type="submit"]:active {
     transform: scale(0.98);
 }
 
-/* --- TU TRABAJO: HEADER FIJO (Sin parches de fuerza bruta) --- */
+
 body {
     padding-top: 90px;
 }
@@ -137,4 +137,12 @@ header {
     width: 100%;
     z-index: 3000;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 45px;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
 }
