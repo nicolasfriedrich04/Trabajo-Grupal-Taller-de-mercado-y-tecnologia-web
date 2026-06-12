@@ -1,14 +1,11 @@
+/* Header estándar (no fixed para que no tape el contenido) */
 header {
     background-color: var(--color-primario);
-    padding: 0 2rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
-    position: fixed;
-    top: 0;
     width: 100%;
-    z-index: 3000;
 }
 
 header h1 {
@@ -17,24 +14,19 @@ header h1 {
     margin: 0;
 }
 
+/* Menú limpio y blanco */
 nav {
     display: flex;
-    gap: 25px;
+    gap: 20px;
 }
 
 nav a {
     color: white;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1rem;
 }
 
-nav a:hover {
-    text-decoration: none;
-    opacity: 0.8;
-}
-
-
-body {
-    padding-top: 80px;
+/* Sección principal para que el contenido baje un poco */
+main {
+    margin-top: 2rem;
 }
