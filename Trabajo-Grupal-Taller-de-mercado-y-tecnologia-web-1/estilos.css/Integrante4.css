@@ -115,3 +115,30 @@ button[type="submit"]:active,
 input[type="submit"]:active {
  transform: scale(0.98);
 }
+
+
+
+
+/*-- Etapa 3 --*/
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+
+.navbar {
+  background-color: var(--color-primario, #53d4ff) !important;
+}
+
+
+.navbar .nav-link {
+  color: var(--color-texto, #333333) !important;
+  font-weight: 500;
+}
+
+
+.navbar .nav-link:hover {
+  color: var(--color-acento, #0056b3) !important;
+}
