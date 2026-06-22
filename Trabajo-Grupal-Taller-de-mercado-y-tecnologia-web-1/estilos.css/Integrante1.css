@@ -1,7 +1,7 @@
 :root{
  --color-primario: #53d4ff;
  --color-fondo: #bceeff;
- --color-acento: #1a2ba4;
+ --color-acento: #1a1a1a;
  --color-texto: #1a1a1a;
  --color-texto-claro: #ffffff;
  --fuente-principal: "inter", sans-serif;
@@ -37,4 +37,37 @@ h3{
 
 p{
  margin-bottom: 1rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background: black;
+    padding: 1rem;
+    
+}
+nav ul{
+    
+    list-style-type: none;
+    marging: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li{
+    display: inline;
+
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: white;
+    border-radius: 5px;
 }
