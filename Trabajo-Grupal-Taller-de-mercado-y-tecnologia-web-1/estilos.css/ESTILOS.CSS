@@ -56,3 +56,13 @@ main {
     max-width: 1200px !important;
     margin: 0 auto !important;
 }
+
+
+.img-programa {
+    width: 100% !important;
+    height: 250px !important;
+    object-fit: contain !important;
+    background-color: #f8f9fa;
+    display: block;
+    margin: 0 auto;
+}
