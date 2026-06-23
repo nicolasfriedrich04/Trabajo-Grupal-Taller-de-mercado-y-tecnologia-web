@@ -21,17 +21,16 @@
 @media (max-width: 768px) {
     body {
         width: 100% !important;
-        overflow-x: hidden; /* Evita que la página se desplace horizontalmente */
+        overflow-x: hidden;
     }
 
-    /* Forzamos a que todo contenedor que tenga un ancho fijo se libere */
     div, main, section, article, .bs-card {
         width: 100% !important;
         margin-left: 0 !important;
         margin-right: 0 !important;
         padding-left: 10px !important;
         padding-right: 10px !important;
-        display: block !important; /* Rompe cualquier flexbox que esté causando el problema */
+        display: block !important; 
     }
 
     /* Las imágenes deben adaptarse al contenedor */
@@ -42,21 +41,12 @@
 }
 
 
-/* para que se  vea bien */
-.mi-nav-negra {
-    background-color: #000 !important;
-    width: 100%;
+
+.navbar-collapse.collapse {
+    display: none !important;
 }
 
-.mi-nav-negra .navbar-nav {
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-}
 
-@media (max-width: 768px) {
-    .mi-nav-negra .navbar-nav {
-        flex-direction: column;
-        gap: 10px;
-    }
+.navbar-collapse.collapse.show {
+    display: block !important;
 }
