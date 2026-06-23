@@ -73,7 +73,7 @@ select {
  border-radius: 4px;
  font-size: 1rem;
  font-family: inherit;
- background-color: (#fafafa);
+ background-color: #fafafa;
  transition: border-color 0.3s ease;
 }
 
