@@ -15,20 +15,28 @@
     opacity: 1 !important;
 }
 
+
+
 /* evita desorden en celulares */
 @media (max-width: 768px) {
-    main {
-        padding: 15px;
-        overflow-wrap: break-word;
+    body {
+        width: 100% !important;
+        overflow-x: hidden; /* Evita que la página se desplace horizontalmente */
     }
 
-    #nosotros-historia p, #especialistas dd {
-        font-size: 0.95rem;
-        margin-bottom: 15px;
+    /* Forzamos a que todo contenedor que tenga un ancho fijo se libere */
+    div, main, section, article, .bs-card {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        display: block !important; /* Rompe cualquier flexbox que esté causando el problema */
     }
 
-    .bloque-info {
-        width: 100%;
-        display: block;
+    /* Las imágenes deben adaptarse al contenedor */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
     }
 }
