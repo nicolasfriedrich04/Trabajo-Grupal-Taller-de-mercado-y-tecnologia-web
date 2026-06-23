@@ -43,3 +43,43 @@
 .mi-nav-negra .nav-link:hover {
     color: #cccccc !important;
 }
+
+
+
+
+
+header, main, footer, section {
+    width: 100% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    box-sizing: border-box !important;
+}
+
+.navbar {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+
+
+header, main, footer, section {
+    width: 100% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+    box-sizing: border-box !important;
+}
+
+
+.navbar {
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+
+main {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
