@@ -129,16 +129,16 @@ header {
 
 
 .navbar {
-  background-color: var(--color-primario, #53d4ff) !important;
+  background-color: var(--color-primario) !important;
 }
 
 
 .navbar .nav-link {
-  color: var(--color-texto, #333333) !important;
+  color: var(--color-texto) !important;
   font-weight: 500;
 }
 
 
 .navbar .nav-link:hover {
-  color: var(--color-acento, #0056b3) !important;
+  color: var(--color-acento) !important;
 }
