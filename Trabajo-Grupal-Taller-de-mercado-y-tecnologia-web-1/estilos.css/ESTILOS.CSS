@@ -31,3 +31,15 @@
     color: #ffffff !important;
     font-weight: bold !important;
 }
+
+
+
+.mi-nav-negra .nav-link {
+    color: #ffffff !important;
+    font-weight: bold !important;
+}
+
+
+.mi-nav-negra .nav-link:hover {
+    color: #cccccc !important;
+}
