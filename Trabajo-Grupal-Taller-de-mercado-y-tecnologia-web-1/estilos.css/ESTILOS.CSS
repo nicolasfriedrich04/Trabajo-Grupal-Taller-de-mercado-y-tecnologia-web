@@ -3,20 +3,21 @@
 @import url('Integrante3.css');
 @import url('Integrante4.css');
 
-/* rectangulo negro */
+
+
 .mi-nav-negra {
     background-color: #000 !important;
     width: 100% !important;
+    padding: 15px 0 !important;
     display: block !important;
 }
 
 .mi-nav-negra .nav-link {
     color: #ffffff !important;
     font-weight: bold !important;
-    opacity: 1 !important;
 }
 
-/* menu visible */
+
 @media (min-width: 992px) {
     .navbar-collapse {
         display: flex !important;
@@ -25,13 +26,8 @@
         flex-direction: row !important;
         gap: 30px;
     }
-}
-
-/* Menú */
-@media (max-width: 991px) {
-    .mi-nav-negra .navbar-nav {
-        flex-direction: column;
-        gap: 10px;
+    .navbar-toggler {
+        display: none !important;
     }
 }
 
@@ -39,14 +35,11 @@
     display: none !important;
 }
 
-/* adaptabilidad de imagenes*/
 img {
     max-width: 100% !important;
     height: auto !important;
 }
 
-@media (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
+body {
+    overflow-x: hidden;
 }
