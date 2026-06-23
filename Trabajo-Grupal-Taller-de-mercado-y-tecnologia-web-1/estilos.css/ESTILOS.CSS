@@ -6,7 +6,8 @@
 /* rectangulo negro */
 .mi-nav-negra {
     background-color: #000 !important;
-    width: 100%;
+    width: 100% !important;
+    display: block !important;
 }
 
 .mi-nav-negra .nav-link {
@@ -15,11 +16,10 @@
     opacity: 1 !important;
 }
 
-/* Menú siempre visible */
+/* menu visible */
 @media (min-width: 992px) {
     .navbar-collapse {
         display: flex !important;
-        flex-basis: auto;
     }
     .navbar-nav {
         flex-direction: row !important;
@@ -27,6 +27,7 @@
     }
 }
 
+/* Menú */
 @media (max-width: 991px) {
     .mi-nav-negra .navbar-nav {
         flex-direction: column;
@@ -34,30 +35,18 @@
     }
 }
 
-
-/* Esto hace que el menu no se abra solo al cargar */
 .navbar-collapse.collapse:not(.show) {
     display: none !important;
 }
 
-/* para que funcione bien en celulares */
+/* adaptabilidad de imagenes*/
+img {
+    max-width: 100% !important;
+    height: auto !important;
+}
+
 @media (max-width: 768px) {
     body {
-        width: 100% !important;
         overflow-x: hidden;
-    }
-
-    div, main, section, article, .bs-card {
-        width: 100% !important;
-        margin-left: 0 !important;
-        margin-right: 0 !important;
-        padding-left: 10px !important;
-        padding-right: 10px !important;
-        display: block !important;
-    }
-
-    img {
-        max-width: 100% !important;
-        height: auto !important;
     }
 }
