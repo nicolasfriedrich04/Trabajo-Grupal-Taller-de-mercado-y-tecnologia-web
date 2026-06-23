@@ -4,6 +4,12 @@
 @import url('Integrante4.css');
 
 .mi-nav-negra {
-    background-color: #212529 !important;
+    background-color: #1a1d20 !important;
     width: 100%;
+}
+
+.mi-nav-negra .nav-link {
+    color: #ffffff !important;
+    font-weight: bold !important;
+    opacity: 1 !important;
 }
