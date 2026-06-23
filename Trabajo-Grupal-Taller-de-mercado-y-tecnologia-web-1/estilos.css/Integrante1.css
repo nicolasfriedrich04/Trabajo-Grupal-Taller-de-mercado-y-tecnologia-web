@@ -45,14 +45,14 @@ p{
 }
 
 nav{
-    background: black;
+    background: var(--color-acento);
     padding: 1rem;
     
 }
 nav ul{
     
     list-style-type: none;
-    marging: 0;
+    margin: 0;
     padding: 0;
     display: flex;
     justify-content: space-around;
@@ -62,12 +62,12 @@ nav ul li{
 
 }
 nav ul li a {
-    color: white;
+    color: var(--color-texto-claro);
     text-decoration: none;
     padding: 0.5rem 1rem;
     display: block;
 }
 nav ul li a:hover {
-    background-color: white;
+    background-color: var(--color-texto-claro);
     border-radius: 5px;
 }
