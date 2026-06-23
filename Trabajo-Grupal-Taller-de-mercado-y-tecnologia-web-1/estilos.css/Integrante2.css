@@ -48,8 +48,8 @@ footer{
 /* Etapa 3 */
 
 .container{
-    background: white;
-    border: 3px solid #53d4ff;
+    background: var(--color-texto-claro);
+    border: 3px solid var(--color-primario);
     border-radius: 10px;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;
@@ -59,8 +59,8 @@ footer{
 }
 
 .container div{
-    background: #bceeff;
-    border: 6px solid white;
+    background: var(--color-fondo);
+    border: 6px solid var(--color-texto-claro);
     border-radius: 4px;
     column-gap: 10px;
     text-align: center;
