@@ -40,3 +40,23 @@
         height: auto !important;
     }
 }
+
+
+/* para que se  vea bien */
+.mi-nav-negra {
+    background-color: #000 !important;
+    width: 100%;
+}
+
+.mi-nav-negra .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .mi-nav-negra .navbar-nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
