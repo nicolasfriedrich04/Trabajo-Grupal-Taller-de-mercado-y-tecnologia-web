@@ -2,3 +2,8 @@
 @import url('Integrante2.css');
 @import url('Integrante3.css');
 @import url('Integrante4.css');
+
+.mi-nav-negra {
+    background-color: #212529 !important;
+    width: 100%;
+}
