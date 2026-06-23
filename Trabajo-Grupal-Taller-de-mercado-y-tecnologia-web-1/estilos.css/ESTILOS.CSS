@@ -8,40 +8,26 @@
 .mi-nav-negra {
     background-color: #000 !important;
     width: 100% !important;
-    min-height: 60px !important; 
+    min-height: 60px !important;
     display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-    padding: 10px 0 !important;
-}
-
-.mi-nav-negra .nav-link {
-    color: #ffffff !important;
-    font-weight: bold !important;
+    padding: 10px 20px !important;
 }
 
 @media (min-width: 992px) {
-    .navbar-collapse {
+    .show-pc {
         display: flex !important;
+        flex-basis: auto;
     }
     .navbar-toggler {
         display: none !important;
     }
     .navbar-nav {
         flex-direction: row !important;
-        gap: 30px !important;
+        gap: 50px !important;
     }
 }
 
-.navbar-collapse.collapse:not(.show) {
-    display: none !important;
-}
-
-img {
-    max-width: 100% !important;
-    height: auto !important;
-}
-
-body {
-    overflow-x: hidden;
+.nav-link {
+    color: #ffffff !important;
+    font-weight: bold !important;
 }
