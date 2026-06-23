@@ -3,6 +3,7 @@
 @import url('Integrante3.css');
 @import url('Integrante4.css');
 
+/* rectangulo negro */
 .mi-nav-negra {
     background-color: #1a1d20 !important;
     width: 100%;
@@ -12,4 +13,22 @@
     color: #ffffff !important;
     font-weight: bold !important;
     opacity: 1 !important;
+}
+
+/* evita desorden en celulares */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+        overflow-wrap: break-word;
+    }
+
+    #nosotros-historia p, #especialistas dd {
+        font-size: 0.95rem;
+        margin-bottom: 15px;
+    }
+
+    .bloque-info {
+        width: 100%;
+        display: block;
+    }
 }
