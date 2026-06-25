@@ -7,9 +7,9 @@ document.addEventListener("DOMContentLoaded", () => {
         
         /* Cambia el texto y el icono del botón */
         if (document.body.classList.contains("oscuro")) {
-            boton.innerText = "☀️ Modo claro";
+            boton.innerText = "Modo claro ☀️";
         } else {
-            boton.innerText = "🌙 Modo oscuro";
+            boton.innerText = "Modo oscuro 🌙";
         }
     });
 });
