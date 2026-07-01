@@ -39,10 +39,6 @@ p{
  margin-bottom: 1rem;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-}
 
 nav{
     background: var(--color-acento);
