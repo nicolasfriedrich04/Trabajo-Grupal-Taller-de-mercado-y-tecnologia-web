@@ -113,14 +113,3 @@ body.oscuro #btn-modo {
     background-color: #ffc107 !important;
     color: #000000 !important;
 }
-
-
-/* Completa el formulario */
-body.oscuro p{
-    color: #ffffff !important;
-}
-
-/* ¿Cómo comenzó esto? */
-body.oscuro h2{
-    color: deepskyblue !important;
-}
