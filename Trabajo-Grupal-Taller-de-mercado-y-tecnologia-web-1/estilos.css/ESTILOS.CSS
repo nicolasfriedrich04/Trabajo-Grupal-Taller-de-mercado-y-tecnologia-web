@@ -121,6 +121,6 @@ body.oscuro p{
 }
 
 /* ¿Cómo comenzó esto? */
-body.oscuro h2[style*="color"] {
+body.oscuro h2{
     color: deepskyblue !important;
 }
