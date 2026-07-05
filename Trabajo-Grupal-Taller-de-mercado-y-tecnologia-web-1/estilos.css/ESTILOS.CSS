@@ -81,3 +81,20 @@ main {
     max-height: 400px !important;
     object-fit: contain !important;
 }
+
+
+/* botton modo oscuro */
+body.oscuro {
+    background-color: #121212;
+    color: #f8f9fa;
+}
+
+body.oscuro h3 {
+    color: #ffffff;
+}
+
+body.oscuro .bs-card {
+    background-color: #1e1e1e;
+    color: #f8f9fa;
+    border: 1px solid #333333;
+}
