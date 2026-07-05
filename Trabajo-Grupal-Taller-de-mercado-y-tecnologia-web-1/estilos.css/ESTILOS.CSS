@@ -100,3 +100,16 @@ body.oscuro [class*="card"] {
     background-color: #f1f3f5 !important;
     color: #212529 !important;
 }
+
+/* boton apariencia*/
+
+#btn-modo {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-weight: bold !important;
+}
+
+body.oscuro #btn-modo {
+    background-color: #ffc107 !important;
+    color: #000000 !important;
+}
