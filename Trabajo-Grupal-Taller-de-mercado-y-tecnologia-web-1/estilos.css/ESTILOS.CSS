@@ -113,3 +113,18 @@ body.oscuro #btn-modo {
     background-color: #ffc107 !important;
     color: #000000 !important;
 }
+
+
+/* Completa el formulario */
+body.oscuro p, 
+body.oscuro label,
+body.oscuro form {
+    color: #ffffff !important;
+}
+
+/* ¿Cómo comenzó esto? */
+body.oscuro .bs-card h2,
+body.oscuro .container h2,
+body.oscuro h2[style*="color"] {
+    color: #212529 !important;
+}
