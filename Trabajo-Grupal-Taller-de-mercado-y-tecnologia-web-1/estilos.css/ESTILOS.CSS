@@ -86,50 +86,17 @@ main {
 /* botton modo oscuro */
 
 body.oscuro {
-    background-color: #1a2332 !important;
-    color: #ffffff !important;
+    background-color: #22252a !important;
 }
 
-body.oscuro h1,
-body.oscuro h2,
-body.oscuro .header-bg h2,
-body.oscuro header h2 {
+body.oscuro h1, 
+body.oscuro h2 {
     color: #ffffff !important;
 }
 
 body.oscuro .container,
-body.oscuro .row,
-body.oscuro div[style*="background-color"], 
-body.oscuro main {
-    background-color: #141c27 !important;
-    color: #ffffff !important;
-}
-
-body.oscuro h2, 
-body.oscuro h3 {
-    color: #ffffff !important;
-}
-
 body.oscuro .bs-card,
 body.oscuro [class*="card"] {
-    background-color: #242f41 !important;
-    border: 1px solid #34445c !important;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
-}
-
-body.oscuro .bs-card p,
-body.oscuro .bs-card span,
-body.oscuro [class*="card"] p {
-    color: #ffffff !important;
-}
-
-body.oscuro #btn-modo {
-    color: #ffffff !important;
-    border-color: #ffffff !important;
-    background-color: rgba(255, 255, 255, 0.1) !important;
-}
-
-body.oscuro #btn-modo:hover {
-    background-color: #ffffff !important;
-    color: #1a2332 !important;
+    background-color: #f1f3f5 !important;
+    color: #212529 !important;
 }
