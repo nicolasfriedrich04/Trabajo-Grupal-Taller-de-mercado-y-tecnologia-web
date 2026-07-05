@@ -84,17 +84,23 @@ main {
 
 
 /* botton modo oscuro */
+
 body.oscuro {
-    background-color: #121212;
-    color: #f8f9fa;
+    background-color: #121212 !important;
+    color: #f8f9fa !important;
 }
 
 body.oscuro h3 {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 body.oscuro .bs-card {
-    background-color: #1e1e1e;
-    color: #f8f9fa;
-    border: 1px solid #333333;
+    background-color: #1e1e1e !important;
+    color: #f8f9fa !important;
+    border: 1px solid #333333 !important;
+}
+
+body.oscuro #btn-modo {
+    color: #ffffff !important;
+    border-color: #ffffff !important;
 }
