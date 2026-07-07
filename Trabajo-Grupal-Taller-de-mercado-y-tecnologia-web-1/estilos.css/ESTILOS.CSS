@@ -101,6 +101,12 @@ body.oscuro [class*="card"] {
     color: #212529 !important;
 }
 
+body.oscuro .seccion-testimonios,
+body.oscuro .seccion-testimonios h3{
+  background-color: #121212 !important;
+  color: #ffffff !important
+}
+
 /* boton apariencia*/
 
 #btn-modo {
