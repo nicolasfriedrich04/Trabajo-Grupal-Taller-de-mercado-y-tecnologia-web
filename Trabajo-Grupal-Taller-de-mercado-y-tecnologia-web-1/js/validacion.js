@@ -47,5 +47,3 @@ const formulario = document.querySelector("form");
         formulario.submit();
 
     });
-
-});
