@@ -90,6 +90,7 @@ body.oscuro {
     --color-primario: #424242;
 }
 
+body.oscuro strong,
 body.oscuro footer p,
 body.oscuro h1, 
 body.oscuro h2 {
