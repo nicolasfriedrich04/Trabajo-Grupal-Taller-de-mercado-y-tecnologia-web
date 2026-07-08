@@ -89,6 +89,7 @@ body.oscuro {
     background-color: #22252a !important;
 }
 
+body.oscuro footer p,
 body.oscuro h1, 
 body.oscuro h2 {
     color: #ffffff !important;
