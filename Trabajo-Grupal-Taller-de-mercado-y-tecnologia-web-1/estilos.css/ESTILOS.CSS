@@ -87,6 +87,7 @@ main {
 
 body.oscuro {
     background-color: #22252a !important;
+    --color-primario: #424242;
 }
 
 body.oscuro footer p,
